@@ -1,0 +1,42 @@
+.indent {
+  margin: 50px 0;
+  @media (max-width: $md4) {
+    margin: 25px 0;
+  }
+}
+.title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+  @media (max-width: $md2) {
+    font-size: 20px;
+  }
+}
+.input{
+  border-bottom: 1px solid #535353;
+  background-color: transparent;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+  color: #535353;
+}
+.button{
+  background-color: #E98074;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  font-size: 14px;
+  width: 100%;
+  transition: all 0.2s linear;
+  @media (min-width: 991.98px) {
+    &:hover {
+      background-color: $colorHover;
+    }
+  }
+}
